@@ -35,3 +35,5 @@ jobs:
     - name: Test with django test
       run: |
         pipenv run ./atomizer/manage.py test
+      env:
+        SECRET_KEY: ${{secrets.SECRET_KEY}}
