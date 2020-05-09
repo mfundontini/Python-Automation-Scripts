@@ -8,13 +8,13 @@ These projects use pipenv instead of vanilla pip, here is a quick primer:
 ```bash
 virtualenv -p <python version> ve = pipenv install --python <python version> 
 
-pip install <package> -= pipenv install <package>
+pip install <package> = pipenv install <package>
 
 pip install -r <package-file> = pipenv install -r <package-file>
 
 pip freeze = pipenv lock -r
 
-pip uninstall <package> -> pipenv uninstall <package>
+pip uninstall <package> = pipenv uninstall <package>
 ```
 ___
 In order to activate the venv `pipenv shell` or simply run your scripts in the format `pipenv run <script>`. Thus running
