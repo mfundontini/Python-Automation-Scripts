@@ -72,7 +72,6 @@ WSGI_APPLICATION = "wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-print(os.path.join(BASE_DIR, "project.db.sqlite3"))
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
@@ -118,3 +117,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = "/static/"
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
