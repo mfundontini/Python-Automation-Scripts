@@ -1,5 +1,4 @@
-![Badge](https://github.com/mfundontini/Python-Automation-Scripts/workflows/python_setup/badge.svg)
-# Python-Automation-Scripts
+# Python-Automation-Scripts ![Badge](https://github.com/mfundontini/Python-Automation-Scripts/workflows/Python%20application/badge.svg)
 
 A folder of automation scripts written in Python. These are just for testing `selenium + behave` tests so if I never actually add any code forgive me future me.
 
