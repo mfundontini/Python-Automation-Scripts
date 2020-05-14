@@ -37,3 +37,6 @@ jobs:
         pipenv run ./atomizer/manage.py test
       env:
         SECRET_KEY: ${{secrets.SECRET_KEY}}
+    - name: Run behave tests
+      run: |
+        pipenv run behave ./atomizer/tests/features

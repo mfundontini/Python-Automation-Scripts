@@ -11,6 +11,8 @@ requests = "*"
 django = "*"
 flake8 = "*"
 pytest = "*"
+selenium = "*"
+behave = "*"
 
 [requires]
 python_version = "3.7"
